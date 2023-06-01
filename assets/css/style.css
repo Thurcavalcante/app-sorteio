@@ -1,0 +1,71 @@
+body, header, img, h1, h2, main, section, p, div, input, textarea, button, label, footer, hr{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+body{
+  background-color: #eeeeee;
+}
+
+header{
+  background-color: #04133d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+
+header img{
+  width: 150px;
+}
+
+header h1{
+  color: #fff;
+}
+
+.app{
+
+}
+
+section{
+
+}
+
+section h2{
+
+}
+
+.text-left{
+
+}
+
+section textarea{
+
+}
+
+section button{
+
+}
+
+footer{
+
+}
+
+.resultado{
+
+}
+
+.resultado.mostrarResultado{
+
+}
+
+.resultado span{
+
+}
+
+.resultado p{
+
+}
+
