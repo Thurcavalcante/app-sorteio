@@ -5,15 +5,38 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>App Sorteio</title>
+  <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
   <header>
-    <img src="" alt="Logo Aplicativo de sorteio">
+    <img src="./assets/img/" alt="Logo Aplicativo de sorteio" width="100" >
     <h1>Sorteio de nomes Kenzie Academy</h1>
   </header>
 
-  <main></main>
+  <main class="app">
+    <section>
+      <h2>SORTEAR NOMES</h2>
+      <P>Crie o sorteio de <strong>nomes</strong> facilmente utilizando essa opção, você poderar salvar o sorteio e compartilhar o link com outras pessoas.</P>
+      
+      <hr>
+
+      <p class="text-left">Adicione os nomes</p>
+
+      <div class="formulario">
+        <label for="entradaNomes">Adicione os nomes para o sorteio</label>
+        <textarea id="entradaNomes" placeholder="Adicione os nomes separados por vírgula (Maria, Hudson, Daniel)"></textarea>
+        <button class="botaoSortear">Sortear</button>
+      </div>
+
+      <div class="resultado">
+        <span class="fechar">X</span>
+        <p>Resultado:</p>
+      </div>
+    </section>
+  </main>
 
   <footer></footer>
+
+  <script src="./assets/js/script.js"></script>
 </body>
 </html>
